@@ -1,0 +1,46 @@
+@font-face {
+  font-family: nbm;
+  src: url(../estilos/fonts/NotoSansOldNorthArabian-Regular.ttf);
+}
+body{
+  background-color: #f9f9f9;
+}
+
+main{
+}
+
+#form1,
+#form2{
+  width: 400px;
+  height: 200px;
+  border: 4px solid #eeeeeeac;
+  background-color: #7ff4ffbb;
+  padding: 20px;
+  margin: 60px;
+  border-radius: 0.7rem;
+}
+
+form>label{
+  font-family: "nbm";
+}
+
+form>button{
+  font-family: "nbm";
+  width: 90px;
+  height: 35px;
+}
+
+#form1>input{
+  height: 80%;
+  width: 90%;
+  border: 1px solid salmon;
+  border-radius: 3px;
+  font-family: "nbm";
+  
+}
+
+#form2>input{
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}

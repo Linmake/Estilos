@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/fonts/NotoSansOldNorthArabian-Regular.ttf">
+  <title>Archivero de Imagenes</title>
+</head>
+<body>
+
+  <header>
+    <h1>Archivero de imagenes</h1>
+    <hr/>
+    <br/>
+    <br/>
+  </header>
+
+  <main>
+    <form method="get" action="./hoja20.html" id="form1">
+        <label for="archivos">Archivos</label>
+        <input
+        type="file"
+        multiple
+        accept=".jpg, .png"
+        id="archivos"
+        name="archivos"
+        autocomplete="off"
+        
+        />
+      <br/>
+      &nbsp;&nbsp;
+      <button type="reset">Borrar</button>
+      &nbsp;&nbsp;
+      <button type="submit">Subir</button>
+    </form>
+    
+    <form method="get" id="form2">
+        <label for="nombre">Nombre Imagen:</label>
+        <input 
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Img-1.jpg"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="size">Tamaño:</label>
+        <input 
+        type="text" 
+        id="size" 
+        name="size"
+        placeholder="86 kb" 
+        readonly/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit">Listo</button>
+      </fieldset>
+    </form>
+      
+    <h2>Tabla de contenido</h2>
+    <table border="1" id="table1">
+      <thead>
+        <tr>
+          <td>
+            Imagen
+          </td>
+          <td>
+            Name
+          </td>
+          <td>
+            Size
+          </td>
+          <td>
+            Date
+          </td>
+          <td>
+            Options
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Preview Imagen 1</td>
+          <td>Navidad</td>
+          <td>25 kb</td>
+          <td> 25/03/24 12:08 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 2</td>
+          <td>Campo verde</td>
+          <td>86 kb</td>
+          <td> 02/03/24 12:08 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 3</td>
+          <td>Orangutan bailando</td>
+          <td>102 kb</td>
+          <td> 11/03/24 13:55 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 4</td>
+          <td>Fiestas de San Juan</td>
+          <td>202 kb</td>
+          <td> 12/11/24 19:11 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 5</td>
+          <td>Maratón</td>
+          <td>64 kb</td>
+          <td> 13/03/24 07:59 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 6</td>
+          <td>Adidas marca</td>
+          <td>22 kb</td>
+          <td> 02/03/24 12:08 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 7</td>
+          <td>Pastel de zanahoria</td>
+          <td>27 kb</td>
+          <td> 31/03/24 18:00 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 8</td>
+          <td>Pianista</td>
+          <td>35 kb</td>
+          <td> 02/03/24 12:12 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preview Imagen 9</td>
+          <td>Mariposa</td>
+          <td>10 kb</td>
+          <td> 02/03/24 12:08 </td>
+          <td>
+            <button>Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+</body>
+</html>

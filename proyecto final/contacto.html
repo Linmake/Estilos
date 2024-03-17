@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="png" href="./assets/icon.png">
+  <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+  </header>
+  <menu>
+    <nav>
+      <ol>Menu
+        <li><a href="./index.html">Principal</a></li>
+        <li><a href="./multimedia.html">Multimedia</a></li>
+        <li><a href="./dieta.html">Dieta</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ol>
+    </nav>
+  </menu>
+  <main>
+    <form method="get">
+      <fieldset>
+        <legend>Datos</legend>
+        <br/>
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" minlength="3" maxlength="9"/>
+      </div>
+      <br/>
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" minlength="3" maxlength="15"/>
+      </div>
+      <br/>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email"/>
+      </div>
+      <br/>
+      <div>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad" min="10" max="90" />
+      </div>
+      <br/>
+      <div>
+        <label for="genero">Genero</label>
+        <select id="genero" name="genero">
+          <option value="mujer">Mujer</option>
+          <option value="hombre">Hombre</option>
+        </select>
+      </div>
+      <br/>
+      <br/>
+      <div>
+        <label for="motivo">Motivo de contacto</label>
+      </div>
+      <div>
+          <textarea
+          name="motivo"
+          id="motivo"
+          cols="30"
+          rows="10">
+        </textarea>
+      </div>
+      <br/>
+      <br/>
+      <button type="submit">Enviar</button>
+      <button type="reset">Borrar</button>
+    </fieldset>
+    </form>
+  </main>
+</body>
+</html>

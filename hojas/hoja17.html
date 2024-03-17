@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <head>
+    <h1>Formulario de datos</h1>
+  </head>
+  <main>
+    <form method="get">
+      <fieldset>
+        <legend>Datos</legend>
+        <div>
+          <label  for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre"/>
+        </div>
+      
+        <div>
+          <label for="edad">Edad</label>
+          <input type="number" id="edad" name="edad"/>
+        </div>
+
+        <div>
+          <label for="hombre">Hombre</label>
+          <input type="radio" id="hombre" value="hombre"/>
+ 
+          <label for="mujer">Mujer</label>
+          <input type="radio" id="mujer" value="mujer"/>
+        </div>
+        <br/>
+        <button type="submit">Enviar</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos de contacto</legend>
+        <div>
+
+          <label for="pais">País</label>
+          <select id="pais">
+            <option value="mexico">México</option>
+            <option value="spain">España</option>
+            <option value="suiza">Suiza</option>
+            <option value="finlandia">Finlandia</option>
+            <option value="dinamarca">Dinamarca</option>
+          </select>
+          <label for="direccion">Dirección</label>
+          <input type="text" id="direccion" name="direccion">
+
+          <label>Número</label>
+          <input type="number" id="numero" name="numero"/>
+
+          <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+
+          </div>
+
+      </fieldset>
+
+    </form>
+  </main>
+</body>
+</html>
