@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/hoja3.css">
+  <script defer src="hoja3.js"></script>
   <title>Proyecto de estilos</title>
 </head>
 <body>
@@ -11,9 +12,15 @@
     <header>
       <h1>Texto Principal</h1>
       <nav>
-          <p><a href="#">Inicio</a></p>
-          <p><a href="#">About us</a></p>
-          <p><a href="#">Contacto</a></p>
+          <div class="container-nav">
+            <p><a href="#">Inicio</a></p>
+          </div>
+          <div class="container-nav">
+            <p><a href="#">About us</a></p>
+          </div>
+          <div class="container-nav">
+            <p><a href="#">Contacto</a></p>
+          </div>
         </ul>
       </nav>
     </header>
@@ -42,12 +49,24 @@
         <div class="caja">
           <p>contenido de caja 8</p>
         </div>
-    </main>
+      </main>
       <aside>
+        <button id="btn-aviso">aviso</button>
       </aside>
-    <footer>
-      <p>Linda Nicole todos los derechos reservados 2024&copy;</p>
-    </footer>
-  </div>
+      <footer>
+        <p>Linda Nicole todos los derechos reservados 2024&copy;</p>
+      </footer>
+    </div>
+    <div id="capa-principal" class="hidden">
+      <div id="ad">
+        <div id="caja-texto">
+          <p>Texto de aviso</p>
+        </div>
+        <div id="caja-btns">
+          <button id="btn-read-more" class="btn-check">Read more</button>
+          <button id="btn-okay" class="btn-check">Okay</button>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
