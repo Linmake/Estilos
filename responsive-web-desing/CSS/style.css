@@ -1,0 +1,49 @@
+.clearfix{
+  float: none;
+  clear: both;
+}
+
+#container{
+  margin: 0px auto;
+  width: 70%;
+  font-family: sans-serif, Arial, Helvetica;
+  background-color: rgb(255, 236, 210);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+header{
+  background-color: lightskyblue;
+  width: 100%;
+  color: #333;
+  line-height: 150px;
+  text-align: center;
+}
+
+aside{
+  width: 25%;
+  float: left;
+  min-height: 700px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 700px;
+}
+
+#articles{
+  width: 75%;
+  min-height: 700px;
+  float: left;
+  background-color: lemonchiffon;
+}
+
+#articles article{
+  width: 25%;
+  height: 150px;
+  background: green;
+  border: 2px solid white;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  float: left;
+  margin: 30px;
+}
