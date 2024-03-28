@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,299 @@
   <link rel="stylesheet" href="../css/estilos.css">
   <title>Master en CSS</title>
 </head>
+
 <body>
-  <header>
+  <header id="header">
     <div id="logotipo">
       <img src="../assets/img/logo.png" alt="logotipo de la web">
     </div>
     <h1>
-    <a href="">
-      Master en CSS
-    </a>
+      <a href="">
+        MASTER EN CSS
+      </a>
     </h1>
   </header>
-    <nav id="menu">
-      <a href="#" id="a-inicio" class="link">Inicio</a>
-      <a href="#" id="a-contenido" class="link">Contenido</a>
-      <a href="#" id="a-requerimientos" class="link">Requerimientos</a>
-      <a href="#" id="a-lenguaje" class="link">Lenguaje</a>
-      <a href="#" id="a-frameworks" class="link">Frameworks</a>
-      <a href="#" id="a-proyectos" class="link">Proyectos</a>
-      <a href="#" id="a-instructor" class="link">El instructor</a>
-      <a href="#" id="a-resenias" class="link">Reseñas</a>
-      <a href="#" id="a-blog" class="link">Blog</a>
-      <a href="#" id="a-contacto" class="link">Contacto</a>
-    </nav>
-  <main></main>
+  <nav id="nav">
+    <ul>
+      <li>
+        <a href="#" id="a-inicio" class="link">Inicio</a>
+      </li>
+      <li>
+        <a href="#" id="a-contenido" class="link">Contenido</a>
+      </li>
+      <li>
+        <a href="#" id="a-requerimientos" class="link">Requerimientos</a>
+      </li>
+      <li>
+        <a href="#" id="a-lenguajes" class="link">Lenguajes</a>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" id="a-frameworks" class="link">Frameworks</a>
+        <ul>
+          <li>LESS</li>
+          <li>SASS</li>
+          <li>Bootstrap</li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" id="a-proyectos" class="link">Proyectos</a>
+      </li>
+      <li>
+        <a href="#" id="a-instructor" class="link">El instructor</a>
+      </li>
+      <li>
+        <a href="#" id="a-resenias" class="link">Reseñas</a>
+      </li>
+      <li>
+        <a href="#" id="a-blog" class="link">Blog</a>
+      </li>
+      <li>
+        <a href="#" id="a-contacto" class="link">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+  <main id="content">
+    <aside id="aside">
+      <div class="widget" id="login">
+        <h3>Entrar a la Web</h3>
+        <form action="post">
+          <label for="usuario">Nombre de usuario:</label>
+          <input type="text" id="usuario" name="usuario">
+
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password">
+
+          <input type="submit" value="Entrar">
+
+        </form>
+        <a href="#">Zona de alumnos</a>
+        <a href="#">Zona del profesor</a>
+        <a href="#">acceso a calificaciones</a>
+      </div>
+
+      <div class="widget" id="aulaV1">
+        <h3 class="blue">Aula Vitual 1</h3>
+        <form action="post">
+          <label for="usuario">Nombre de usuario:</label>
+          <input type="text" id="usuario" name="usuario">
+
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password">
+
+          <input type="submit" value="Entrar">
+        </form>
+      </div>
+
+      <div class="widget" id="aulaV2">
+        <h3 class="red">Aula Vitual 2</h3>
+        <form action="post">
+          <label for="usuario">Nombre de usuario:</label>
+          <input type="text" id="usuario" name="usuario">
+
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password">
+
+          <input type="submit" value="Entrar">
+        </form>
+      </div>
+
+      <div class="widget" id="enlacesInteres">
+        <ul>
+          <li>
+            <a href="https://victorroblesweb.es">Master en JavaScript</a>
+          </li>
+          <li>
+            <a href="https://victorroblesweb.es">Master en PHP</a>
+          </li>
+          <li>
+            <a href="https://victorroblesweb.es">Master en Webs full-stack</a>
+          </li>
+          <li>
+            <a href="https://victorroblesweb.es">Master en Frameworks JS</a>
+          </li>
+          <li>
+            <a href="https://victorroblesweb.es">Master en Git y comandos Linux</a>
+          </li>
+          <li>
+            <a href="https://victorroblesweb.es">VictorRoblesWeb.es</a>
+          </li>
+      </div>
+    </aside>
+
+    <div id="sections">
+      <section id="frontend">
+        <span class="stickers">
+          <img class="stickerOne" src="../assets/img/scotch.png" alt="pegatinas">
+          <img class="stickerTwo" src="../assets/img/scotch.png" alt="pegatinas">
+        </span>
+        <h2 class="titulo">Noticias de front-end</h2>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio.
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+      </section>
+      <section id="backend">
+        <span class="stickers">
+          <img class="stickerOne" src="../assets/img/scotch.png" alt="pegatinas">
+          <img class="stickerTwo" src="../assets/img/scotch.png" alt="pegatinas">
+        </span>
+        <h2 class="titulo red">Noticias de back-end</h2>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+      </section>
+
+      <section id="instructor">
+        <span class="stickers">
+          <img class="stickerOne" src="../assets/img/scotch.png" alt="pegatinas">
+          <img class="stickerTwo" src="../assets/img/scotch.png" alt="pegatinas">
+        </span>
+        <h2 class="titulo orange">Noticias del instructor</h2>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+        <article class="article">
+          <p>
+            <span class="icon">a</span>
+            <a href="#">Titulo de la entrada</a>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, blanditiis. Velit, esse nisi neque,
+            quibusdam ullam voluptatibus placeat similique recusandae adipisci possimus quae odio. Rerum laborum modi,
+            eius consequatur minima mollitia pariatur, aut molestias itaque vel, fugiat quos magni in!
+          </p>
+          <span class="date">[27-03-24. Linda Nicole]</span>
+        </article>
+      </section>
+    </div>
+    <aside id="frase">
+      <p>
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio pariatur consequuntur recusandae minus tempore
+        nihil vitae, nobis quod praesentium.
+      </p>
+      <a href="#">leer más</a>
+    </aside>
+  </main>
+
+  <div id="clearFixed"></div>
+
+  <footer id="footer">
+    <p>&copy Desarrollado por Linda Nicole</p>
+    <p>Más contenido y proyectos de desarrollo en
+      <a href="#">Lindanicole.es/portfolio</a>
+    </p>
+  </footer>
 </body>
 </html>
