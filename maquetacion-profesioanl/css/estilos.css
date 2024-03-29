@@ -151,7 +151,7 @@ body{
 }
 
 #content{
-  width: 1250px;
+  width: 65%;
   min-height: 1100px;
   margin: 0px auto;
   font-family: sans-serif, helvetica, arial;
@@ -389,4 +389,8 @@ a:visit{
   margin-top: 40px;
   font-size: 14px;
   box-shadow: 0px 0px 3px gray;
+}
+
+@media (max-width: 1211px){
+  
 }

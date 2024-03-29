@@ -47,3 +47,74 @@ aside{
   float: left;
   margin: 30px;
 }
+
+@media (max-width: 1468px) {
+  
+  #articles article{
+    width: 35%;
+    height: 180px;
+  }
+
+}
+
+@media (max-width: 828px) {
+  
+  #articles article{
+    width: 80%;
+    height: 217px;
+  }
+
+}
+
+@media (max-width: 1262px) {
+  #articles article{
+    width: 39%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  
+  #articles article{
+    width: 56%;
+    height: 200px;
+  }
+
+  aside{
+    width: 25%;
+    float: left;
+    min-height: 700px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 700px;
+  }
+
+}
+
+@media (max-width: 390px) {
+  
+  #articles{
+    width: 100%;
+  }
+  
+  #articles article{
+    width: 70%;
+    height: 160px;
+    float: none;
+  }
+
+  aside{
+    width: 92%;
+    float: none;
+    min-height: auto;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 20px;
+    padding: 11px;
+  }
+
+  header{
+    height: 10%;
+  }
+}
+
