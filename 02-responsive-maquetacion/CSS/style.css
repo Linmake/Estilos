@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "icons";
+  src: url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"),
+       url("fonts/websymbols-regular-webfont.eot"),
+       url("fonts/websymbols-regular-webfont.eot?#iefix") format("enbedded-opentype"),
+       url("fonts/websymbols-regular-webfont.woff") format("woff"),
+       url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: BebasNeue;
+  src: url(../CSS/fonts/BebasNeue.otf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#header{
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  font-family: BebasNeue;
+}
+
+#wrap{
+  display: flex;
+  width: 100%;
+
+}
+
+#wrap #logotipo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #37BCF9;
+  width: 200px;
+  height: 50px;
+  color: white;
+  margin-left: 180px;
+}
+
+.gear{
+  font-family: icons !important;
+  font-size: 35px;
+}
+
+#logotipo h3{
+  font-size: 35px;
+  font-family: BebasNeue;
+  letter-spacing: 1px;
+}  
+
+#menu{
+  float: right;
+}
+
+#menu ul li{
+  float: left;
+  list-style-type: none;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+#menu ul li a{
+  display: block;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+#menu ul li:last-child{
+  margin-right: 360px;
+}
